@@ -15,7 +15,7 @@ def get_order(value):
     # the orderList is needed evaluate the customers receipt
     global orderList
     # value which is user input indicates which item on the menu that is selected
-    name = menu.get_list[value]
+    name = menu.get_list()[value]
     # prompts the user to enter the size of the current order
     size = input("small -s, Medium -m, Large -l? ")
     # this conditional seperates burger orders from drink orders and hence asks appropriate questions for each item ordered
